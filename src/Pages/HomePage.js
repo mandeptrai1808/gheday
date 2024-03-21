@@ -6,8 +6,8 @@ import Footer from '../Components/Footer'
 export default function HomePage() {
   return (
     <div className='relative'>
-        <HeaderMenu className='shadow-lg z-100 relative'/>
-        <div className='h-100 w-full relative z-0 '>
+        <HeaderMenu className='shadow-lg fixed top-0 z-50'/>
+        <div className='h-100 w-full relative z-1'>
         <div className='bg-slate-400 h-full w-full'
          style={{
             backgroundImage: `url(https://zalo-article-photo.zadn.vn/59c6337d0936e068b927#235298784)`,
@@ -31,6 +31,7 @@ export default function HomePage() {
                 </div>
           </div>
         </div>
+
         <div className='px-20 pb-20'>
           <h1 className='text-4xl mt-10 pl-5'>Nội dung 1</h1>
         <div className='flex '>

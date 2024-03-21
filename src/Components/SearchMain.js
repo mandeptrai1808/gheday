@@ -24,7 +24,7 @@ const HotelSearchComponent = () => {
 
   return (
     <div className='mx-auto p-4'>
-      <form onSubmit={handleSubmit} className='flex gap-4 p-2 bg-pOrange rounded-xl'>
+      <form onSubmit={handleSubmit} className='flex gap-4 p-2 bg-pOrange  rounded-xl'>
         <input
           type='date'
           name='departureDate'

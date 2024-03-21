@@ -3,7 +3,7 @@ import { CalendarOutlined, HomeOutlined, InboxOutlined, NotificationOutlined, Te
 import { useNavigate, NavLink } from "react-router-dom";
 export default function HeaderMenu() {
   return (
-    <div className='w-full menu px-10 h-20 bg-pBrown text-yellow-500 flex justify-between items-center '>
+    <div className='w-full menu px-10 h-20 bg-pBrown bg-opacity-100   text-yellow-500 flex justify-between items-center '>
         <div className='text-4xl '>
             GHEDAY
        </div>
