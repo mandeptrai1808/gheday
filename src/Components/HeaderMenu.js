@@ -5,7 +5,7 @@ export default function HeaderMenu() {
   return (
     <div className='w-full menu px-10 h-20 bg-pBrown bg-opacity-100   text-yellow-500 flex justify-between items-center '>
         <div className='text-4xl '>
-            GHEDAY
+        <img alt='logo' width={200} src={process.env.PUBLIC_URL + '/logo.png'} />
        </div>
        <div className='flex'>
        <NavLink  className='px-4 duration-100 flex items-center hover:text-yellow-200 hover:scale-110' to={"/"}>
@@ -28,10 +28,10 @@ export default function HeaderMenu() {
             <InboxOutlined className='mr-1'/>
             Vé của tôi
         </NavLink>
-        <div className='px-4 duration-100 flex items-center hover:text-yellow-200 hover:scale-110'  to={"/dangnhap"}>
+        <NavLink className='px-4 duration-100 flex items-center hover:text-yellow-200 hover:scale-110'  to={"/dangnhap"}>
             <UserOutlined/> 
             Nguyễn Văn A
-        </div>
+        </NavLink>
        </div>
     </div>
   )
